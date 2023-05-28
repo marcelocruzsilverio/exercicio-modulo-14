@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilização do cabeçalho */
+.navbar {
+    background-color: #0d7fb0;
+}
+
+#header .nav .nav-link.active {
+    background-color: #fff;
+    color: #0d7fb0;
+}
+
+#header .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+
+.navbar-toggler {
+    background-color: #dce9ef;
+}
+
+/*****************************/
+
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.carousel-item img {
+    height: 800px;
+}
+
+
+#about-us,
+#our-aircrafts {
+    background-color: #dce9ef;
+}
+
+.text-colored {
+    color: #0d7fb0;
+}
+
+.nav-cardapio .nav-link.active,
+#contact button {
+    background-color: #0d7fb0;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #0d7fb0
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+    font-size: small;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 240px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .carousel-item img {
+        height: 450px;
+    }
+    
+}
+
